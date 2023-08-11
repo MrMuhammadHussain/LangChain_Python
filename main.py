@@ -8,4 +8,4 @@ load_dotenv()
 API_KEY  = os.getenv('OPENAI_API_KEY')
 
 llm = OpenAI(temperature=0.3)
-print(llm.predict("HI"))
+print(llm.predict("Q?"))
